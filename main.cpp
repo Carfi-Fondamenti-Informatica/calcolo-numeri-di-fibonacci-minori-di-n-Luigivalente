@@ -2,5 +2,17 @@
 using namespace std;
 
 int main() {
-   return 0;
+    int n=0,n1=0,n2=1;
+    int risultato;
+    cin >> n;
+    cout << "1" <<endl;
+    for(int i=3; i<=n; i++){
+        risultato=n1+n2;
+        n1=n2;
+        n2=risultato;
+        cout << risultato <<endl;
+    }
+
+
+    return 0;
 }
